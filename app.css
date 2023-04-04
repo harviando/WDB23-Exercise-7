@@ -146,4 +146,22 @@ body {
   padding: 15px 25px;
   width: 100%;
   max-width: 960px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.pricing-plan {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+}
+
+.pricing-img {
+  width: 100%;
+  min-width: 100px;
 }
